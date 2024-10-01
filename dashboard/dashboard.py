@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-china_df = pd.read_csv('china_df.csv')
+china_df = pd.read_csv('dashboard/china_df.csv')
 
 # Judul dan deskripsi aplikasi
 st.title('Dashboard Kualitas Udara di China')
